@@ -7,10 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "thirupathis-remote-state"
-    key    = "workspaces"
-    region = "us-east-1"
-    dynamodb_table = "81s-locking"
+    
   }
 }
 
